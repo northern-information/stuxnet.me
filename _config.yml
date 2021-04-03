@@ -1,0 +1,15 @@
+title: STUXNET
+description: CIPHER SUITE (demo) OUT NOW
+baseurl: /
+url: https://stuxnet.me
+permalink: pretty
+sort_by: year, month
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+plugins:
+  - jekyll-feed
+include: ['_pages']
+collections_dir: collections
+collections:
+  - examples

@@ -1,0 +1,46 @@
+$bandcampBodyColor: #000000
+$bandcampLinkColor: #98F506
+$bandcampTextColor: #6E6E6E
+
+$monoFontStack: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+$serifFontStack: Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol
+$sansSerifFontStack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+
+body 
+  background: $bandcampBodyColor
+  color: $bandcampTextColor
+  font-size: 1rem
+
+
+h1
+  font-size: 4rem
+  font-family: $serifFontStack
+
+a,
+a:link,
+a:hover,
+a:active,
+a:visited
+  color: $bandcampLinkColor
+
+
+
+ul
+  list-style: none
+  margin: 0
+  padding: 0
+
+  a
+    font-size: 2rem
+    border: 1px solid $bandcampLinkColor
+    padding: .33rem
+
+code
+  font-family: $monoFontStack
+  color: $bandcampTextColor
+
+hr
+  border-top: .33rem solid $bandcampTextColor
+
+em
+  font-size: .66rem

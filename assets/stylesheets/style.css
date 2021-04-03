@@ -1,0 +1,36 @@
+body {
+  background: #000000;
+  color: #6E6E6E;
+  font-size: 1rem; }
+
+h1 {
+  font-size: 4rem;
+  font-family: Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; }
+
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+  color: #98F506; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  ul a {
+    font-size: 2rem;
+    border: 1px solid #98F506;
+    padding: 0.33rem; }
+
+code {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  color: #6E6E6E; }
+
+hr {
+  border-top: 0.33rem solid #6E6E6E; }
+
+em {
+  font-size: 0.66rem; }
+
+/*# sourceMappingURL=style.css.map */
