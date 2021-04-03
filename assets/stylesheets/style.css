@@ -7,6 +7,9 @@ h1 {
   font-size: 4rem;
   font-family: Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; }
 
+h2 {
+  font-family: Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; }
+
 a,
 a:link,
 a:hover,
@@ -14,14 +17,17 @@ a:active,
 a:visited {
   color: #98F506; }
 
+a img {
+  border: 1px solid #98F506; }
+
 ul {
   list-style: none;
   margin: 0;
   padding: 0; }
   ul a {
-    font-size: 2rem;
     border: 1px solid #98F506;
-    padding: 0.33rem; }
+    padding: 0.33rem;
+    font-size: 1.33rem; }
 
 code {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
