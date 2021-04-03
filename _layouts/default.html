@@ -4,9 +4,15 @@
 <body>
 {% include header.html %}
 <main class="container-fluid mb-3">
-  {% include hero.html %}
-  {% include links.html %}
-  {% include photo.html %}
+  <div class="row">
+    <div class="col-md-4 offset-md-4">
+      <div class="container-fluid px-0">
+        {% include links.html %}
+        {% include hero.html %}
+        {% include photo.html %}
+      </div>
+    </div>
+  </div>
 </main>
 {% include footer.html %}
 </body>
