@@ -5,7 +5,6 @@ url: https://stuxnet.me
 permalink: pretty
 sort_by: year, month
 markdown: kramdown
-theme: minima
 kramdown:
   parse_block_html: true
 plugins:
