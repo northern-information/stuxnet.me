@@ -1,9 +1,3 @@
-# Perfect Bootstrap Jekyll
-
-- Bootstrap JS is ready to be uncommented in javascript.html.
-- Includes FontAwesome in head.html.
-- Favicon stuff is ready to be uncommented in head.html.
-
 ## Setup Instructions
 
 1. Clone repository to your computer.
