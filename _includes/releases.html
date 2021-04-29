@@ -5,10 +5,17 @@
       {% for release in releases %}
       <div class="row mb-3">
         <div class="col-4 px-0">
-          <a href="{{ release.url }}"><img src="{{ site.url }}/assets/images/{{ release.image }}"  class="img-fluid" alt="{{ release.title }}"/></a>
+          <img src="{{ site.url }}/assets/images/{{ release.image }}"  class="img-fluid" alt="{{ release.title }}"/>
         </div>
         <div class="col-8">
-          <h2><a href="{{ release.url }}">{{ release.title }}</a></h2>
+          <details>
+            <summary>Listen to {{ release.title }}</summary>
+            <ul>
+              {% for link in release.links %}
+                <li><a href="{{ link.url }}">&#9654; {{ link.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </details>
         </div>
       </div>
       {% endfor %}

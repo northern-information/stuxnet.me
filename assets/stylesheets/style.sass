@@ -18,19 +18,18 @@ h1
   font-size: 4rem
   font-family: $serifFontStack
 
-h2
-  margin: 0
-  font-size: 2rem
-  font-family: $serifFontStack
+summary
+  font-size: 1rem
 
 a,
 a:link,
 a:hover,
 a:active,
-a:visited
+a:visited,
+summary
   color: $bandcampLinkColor
 
-a img
+img
   border: $linkBorder
 
 ul
@@ -42,6 +41,10 @@ ul
     border: $linkBorder
     padding: .33rem
     font-size: 1.33rem
+
+details ul a
+  font-size: 1rem
+  border: none
 
 code
   font-family: $monoFontStack
