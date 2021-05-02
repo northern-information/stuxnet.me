@@ -22,6 +22,9 @@ summary {
 img {
   border: 1px solid #98F506; }
 
+img.no-border {
+  border: none; }
+
 ul {
   list-style: none;
   margin: 0;
