@@ -3,10 +3,9 @@ body {
   color: #6E6E6E;
   font-size: 1rem; }
 
-h1 {
-  margin: 0;
-  font-size: 4rem;
-  font-family: Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; }
+header {
+  font-size: 1.5rem;
+  text-align: center; }
 
 summary {
   font-size: 1rem; }
@@ -19,11 +18,8 @@ a:visited,
 summary {
   color: #98F506; }
 
-img {
+a img {
   border: 1px solid #98F506; }
-
-img.no-border {
-  border: none; }
 
 ul {
   list-style: none;
