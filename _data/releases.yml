@@ -1,8 +1,18 @@
 - title: LONG LIVE THE LOST ONES
   image: long-live-the-lost-ones.jpg
   links:
+    - title: APPLE MUSIC / ITUNES
+      url: https://music.apple.com/us/album/long-live-the-lost-ones/1566164442
     - title: BANDCAMP
       url: https://stuxnet.bandcamp.com/album/long-live-the-lost-ones
+    - title: DEEZER
+      url: https://www.deezer.com/us/album/228050162
+    - title: SPOTIFY
+      url: https://open.spotify.com/album/7bhBgc1uvSJ59BATJs5ENR?si=nq0UIAYDSaOEhFkrU0ujag
+    - title: TIDAL
+      url: https://listen.tidal.com/album/183073580
+    - title: YOUTUBE
+      url: https://www.youtube.com/watch?v=VXeHqILaKZQ&list=OLAK5uy_nNcJAhxYzLCWaDCLMZ3dHZVTLlKUFIozY
 
 - title: TIME'S FIREWALL (demo)
   image: times-firewall.jpg
