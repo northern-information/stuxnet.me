@@ -5,7 +5,7 @@
       {% for release in releases %}
       <div class="row mb-3">
         <div class="col-4 px-0">
-          <a href="{{ site.url }}/assets/images/{{ release.image }}"><img src="{{ site.url }}/assets/images/{{ release.image }}"  class="img-fluid" alt="{{ release.title }}"/></a>
+          <a href="{{ site.url }}/assets/images/{{ release.image }}"><img src="{{ site.url }}/assets/images/{{ release.image }}"  class="img-fluid{% if release.noborder %} no-border{% endif %}" alt="{{ release.title }}"/></a>
         </div>
         <div class="col-8">
           <details>

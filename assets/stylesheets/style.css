@@ -20,6 +20,8 @@ summary {
 
 a img {
   border: 1px solid #98F506; }
+  a img.no-border {
+    border: none; }
 
 ul {
   list-style: none;

@@ -35,6 +35,7 @@
       url: https://www.youtube.com/playlist?list=OLAK5uy_mn3exdv5qxj3mX8JLOlaWmByFUJ3Rnhlo
 
 - title: MATRYOSHKA (demo)
+  noborder: true
   image: matryoshka.jpg
   links:
     - title: AMAZON
