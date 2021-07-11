@@ -1,12 +1,18 @@
 - title: COUNTERSURVEILLANCE
   image: countersurveillance.jpg
   links:
+    - title: APPLE MUSIC / ITUNES
+      url: https://music.apple.com/us/album/countersurveillance/1575845305?uo=4&app=itunes&at=1001lry3&ct=dashboard
     - title: BANDCAMP
       url: https://stuxnet.bandcamp.com/album/countersurveillance
-
+    - title: SPOTIFY
+      url: https://open.spotify.com/album/1Lt4XPgIYhdZDIDiCWyFKk
+    
 - title: LONG LIVE THE LOST ONES
   image: long-live-the-lost-ones.jpg
   links:
+    - title: AMAZON
+      url: https://www.amazon.com/LONG-LIVE-LOST-ONES-Stuxnet/dp/B09484SH2V
     - title: APPLE MUSIC / ITUNES
       url: https://music.apple.com/us/album/long-live-the-lost-ones/1566164442
     - title: BANDCAMP
