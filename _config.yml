@@ -1,5 +1,5 @@
 title: STUXNET
-description: LONG LIVE THE LOST ONES
+description: COUNTERSURVEILLANCE
 baseurl: /
 url: https://stuxnet.me
 permalink: pretty
@@ -12,7 +12,3 @@ plugins:
   - jekyll-sitemap
 feed:
   path: feed.xml
-include: ['_pages']
-collections_dir: collections
-collections:
-  - examples
