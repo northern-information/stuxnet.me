@@ -6,14 +6,6 @@
   url: https://open.spotify.com/artist/4rGnoYEZd0ffwN0ySOX1b7?si=D348YPQ5RJW1SKSPDy3L0A
   emoji: 🔊
 
-- title: Watch on Twitch
-  url: https://twitch.tv/tyleretters
-  emoji: 🛰️
-
-- title: Follow on Instagram
-  url: https://instagram.com/tyleretters
-  emoji: 📸
-
 - title: Support via Bandcamp
   url: https://intertext.bandcamp.com
   emoji: 🏕️
@@ -25,11 +17,3 @@
 - title: Read the Blog
   url: https://nor.the-rn.info/blog
   emoji: 📓
-
-- title: Code on GitHub
-  url: https://tyleretters.github.io
-  emoji: 💾
-
-- title: gemini://tilde.club/~tse
-  url: gemini://tilde.club/~tse
-  emoji: ♊
