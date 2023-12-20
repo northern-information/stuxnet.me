@@ -1,0 +1,19 @@
+{
+  "name": "stuxnet.me",
+  "version": "1.0.0",
+  "description": "may we rave atop burning oil derricks as we sink into the sea",
+  "main": "index.js",
+  "scripts": {
+    "dev": "bundle exec jekyll serve --baseurl '' --livereload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyleretters/stuxnet.me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyleretters/stuxnet.me/issues"
+  },
+  "homepage": "https://github.com/tyleretters/stuxnet.me#readme"
+}

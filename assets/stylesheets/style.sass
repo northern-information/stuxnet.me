@@ -1,8 +1,10 @@
+$stuxnetLogoColor: #FFFFFF
 $bandcampBodyColor: #000000
 $bandcampLinkColor: #98F506
 $bandcampTextColor: #6E6E6E
 
-$linkBorder: 1px solid $bandcampLinkColor
+$linkBorder: 1px solid $bandcampBodyColor
+$linkBorderHover: 1px solid $bandcampLinkColor
 
 $monoFontStack: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 $serifFontStack: Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol
@@ -13,12 +15,27 @@ body
   color: $bandcampTextColor
   font-size: 1rem
 
-h1
-  font-size: 1.5rem
-  text-align: center
+::selection
+  background: $bandcampLinkColor
+  color: $bandcampBodyColor
 
-summary
-  font-size: 1rem
+h1
+  font-family: $serifFontStack
+  color: $bandcampLinkColor
+  font-size: 1.5rem
+
+  span
+    font-size: 1rem
+
+  &.big
+    font-family: $sansSerifFontStack
+    text-transform: uppercase
+    font-size: 2rem
+    color: $stuxnetLogoColor
+    border-bottom: 1px solid $stuxnetLogoColor
+
+p, code
+  color: $bandcampTextColor
 
 a,
 a:link,
@@ -29,31 +46,35 @@ summary
   color: $bandcampLinkColor
 
 a img
+  width: 100%
+  height: auto
+  margin-bottom: 1rem
   border: $linkBorder
 
-  &.no-border
-    border: none
+  &:hover
+    border: $linkBorderHover
 
 ul
   list-style: none
   margin: 0
   padding: 0
 
-  a
-    border: $linkBorder
-    padding: .33rem
-    font-size: 1.33rem
+  li
+    margin: 0 0 1rem 0
+    padding: 0
 
-details ul a
-  font-size: 1rem
-  border: none
+    a
+      border: $linkBorder
+      padding: .33rem
+      font-size: 1.33rem
 
-code
-  font-family: $monoFontStack
-  color: $bandcampTextColor
-
-hr
-  border-top: .33rem solid $bandcampTextColor
+ol
+  li
+    color: $bandcampLinkColor
 
 em
   font-size: .66rem
+
+.container-fluid
+  max-width: 1048px
+  margin: 0 auto

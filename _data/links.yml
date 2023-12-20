@@ -1,19 +1,11 @@
-- title: Read Recent Propaganda
-  url: https://us1.campaign-archive.com/home/?u=e82006751a8517b8fd440a182&id=68446b3abb
-  emoji: 📰
-
-- title: Listen on Spotify
-  url: https://open.spotify.com/artist/4rGnoYEZd0ffwN0ySOX1b7?si=D348YPQ5RJW1SKSPDy3L0A
-  emoji: 🔊
-
-- title: Support via Bandcamp
+- title: Intertext on Bandcamp
   url: https://intertext.bandcamp.com
-  emoji: 🏕️
 
 - title: Subscribe to Emails
   url: http://eepurl.com/hs8K0L
-  emoji: 📨
 
-- title: Read the Blog
+- title: Read Propaganda
+  url: https://us1.campaign-archive.com/home/?u=e82006751a8517b8fd440a182&id=68446b3abb
+
+- title: Read Blog
   url: https://nor.the-rn.info/blog
-  emoji: 📓

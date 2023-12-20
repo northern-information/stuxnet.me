@@ -1,14 +1,33 @@
 body {
   background: #000000;
   color: #6E6E6E;
-  font-size: 1rem; }
+  font-size: 1rem;
+}
+
+::selection {
+  background: #98F506;
+  color: #000000;
+}
 
 h1 {
+  font-family: Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  color: #98F506;
   font-size: 1.5rem;
-  text-align: center; }
+}
+h1 span {
+  font-size: 1rem;
+}
+h1.big {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+}
 
-summary {
-  font-size: 1rem; }
+p, code {
+  color: #6E6E6E;
+}
 
 a,
 a:link,
@@ -16,34 +35,45 @@ a:hover,
 a:active,
 a:visited,
 summary {
-  color: #98F506; }
+  color: #98F506;
+}
 
 a img {
-  border: 1px solid #98F506; }
-  a img.no-border {
-    border: none; }
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border: 1px solid #000000;
+}
+a img:hover {
+  border: 1px solid #98F506;
+}
 
 ul {
   list-style: none;
   margin: 0;
-  padding: 0; }
-  ul a {
-    border: 1px solid #98F506;
-    padding: 0.33rem;
-    font-size: 1.33rem; }
+  padding: 0;
+}
+ul li {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+ul li a {
+  border: 1px solid #000000;
+  padding: 0.33rem;
+  font-size: 1.33rem;
+}
 
-details ul a {
-  font-size: 1rem;
-  border: none; }
-
-code {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  color: #6E6E6E; }
-
-hr {
-  border-top: 0.33rem solid #6E6E6E; }
+ol li {
+  color: #98F506;
+}
 
 em {
-  font-size: 0.66rem; }
+  font-size: 0.66rem;
+}
+
+.container-fluid {
+  max-width: 1048px;
+  margin: 0 auto;
+}
 
 /*# sourceMappingURL=style.css.map */
