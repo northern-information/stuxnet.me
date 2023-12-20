@@ -1,19 +1,12 @@
 {
   "name": "stuxnet.me",
-  "version": "1.0.0",
-  "description": "may we rave atop burning oil derricks as we sink into the sea",
-  "main": "index.js",
+  "description": "May we rave atop burning oil derricks... and sink into the sea.",
   "scripts": {
-    "dev": "bundle exec jekyll serve --baseurl '' --livereload"
+    "dev": "bundle exec jekyll serve --baseurl '' --livereload",
+    "watch": "sass --watch assets/stylesheets/style.sass:assets/stylesheets/style.css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tyleretters/stuxnet.me.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tyleretters/stuxnet.me/issues"
-  },
-  "homepage": "https://github.com/tyleretters/stuxnet.me#readme"
+  }
 }

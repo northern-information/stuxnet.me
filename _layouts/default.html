@@ -3,9 +3,9 @@
 {% include head.html %}
 <body>
 <main class="container-fluid px-3">
-  <div class="row">
+  <div class="row my-3">
     <div class="col">
-      <img src="/assets/images/stuxnet.jpg" class="img-fluid" />
+      <img src="/assets/images/stuxnet.png" class="img-fluid" />
     </div>
   </div>
   <div class="row mb-3">
@@ -33,6 +33,7 @@
         {% for track in release.tracks %}<li>{{ track }}</li>{% endfor %}
       </ol>
       {{ release.notesHtml }}
+      <hr>
       <p>released {{ release.date | date: "%B %-d, %Y" }}</p>
       {{ release.creditsHtml }}
     </div>

@@ -10,8 +10,7 @@ body {
 }
 
 h1 {
-  font-family: Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  color: #98F506;
+  color: #FFFFFF;
   font-size: 1.5rem;
 }
 h1 span {
@@ -22,7 +21,7 @@ h1.big {
   text-transform: uppercase;
   font-size: 2rem;
   color: #FFFFFF;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 2px solid #6E6E6E;
 }
 
 p, code {
@@ -64,11 +63,12 @@ ul li a {
 }
 
 ol li {
-  color: #98F506;
+  color: #6E6E6E;
 }
 
-em {
-  font-size: 0.66rem;
+hr {
+  border: none;
+  border-bottom: 2px solid #6E6E6E;
 }
 
 .container-fluid {
