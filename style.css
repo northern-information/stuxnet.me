@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  font-size: 1rem;
+  background: #000000;
+  color: #ffffff;
+}
+
+h1, h2 {
+  font-weight: 400;
+  text-align: center;
+}
+
+a,
+a:link,
+a:visited {
+  color: #98F506
+}
+
+a:hover,
+a:active {
+  color: #ffffff;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 512px;
+}
+
+ul {
+  margin: 0 0 2rem 0;
+  padding: 0 0 0 1rem;
+}
+
+.container {
+  max-width: 512px;
+  margin: auto;
+}
+
