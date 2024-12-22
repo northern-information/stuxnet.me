@@ -2,6 +2,7 @@ body {
   font-family: sans-serif;
   background: #000000;
   color: #ffffff;
+  font-size: 1rem;
 }
 
 a {
@@ -24,8 +25,24 @@ video {
 audio {
   width: 100%;
   opacity: .5;
+  margin: 0 0 3rem 0;
 }
 
 audio:hover {
   opacity: 1;
+}
+
+.data {
+  color: #777;
+  font-family: monospace;
+  margin: .5rem 0 1rem 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto 5rem auto;
+}
+
+.center {
+  text-align: center;
 }
