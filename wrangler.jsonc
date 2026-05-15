@@ -15,6 +15,10 @@
     {
       "pattern": "stuxnet.me/*",
       "zone_name": "stuxnet.me"
+    },
+    {
+      "pattern": "www.stuxnet.me/*",
+      "zone_name": "stuxnet.me"
     }
   ]
 }
